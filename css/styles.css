@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Secular One', sans-serif;
+}
+
+#banner {
+    background: linear-gradient(rgba(0,0,0,0.2), #0084ff), url(../img/fondo_ropa_hombre.jpg);
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#banner1 {
+    background: linear-gradient(rgba(0,0,0,0.2), #ff4942), url(../img/fondo.jpg);
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+
+/*.logo {
+    width: 150px;
+    position: fixed;
+    top: 4%;
+    left: 10%;
+    cursor: pointer;
+}*/
+
+
+.banner-texto {
+    text-align: center;
+    color: #FFF;
+    padding-top: 50px;
+}
+
+.banner-texto h1 {
+    font-size: 130px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.banner-texto p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.banner-boton {
+    margin: 50px auto 0;
+
+}
+
+.banner-boton a{
+    width: 200px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 15px 0;
+    color: #FFF;
+    border: .5px solid #FFF;
+    border-radius: 40px;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+}
+
+.banner-boton a span {
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #FFF;
+    z-index: -1;
+    border-radius: 40px;
+    transition: 0.6s;
+}
+
+.banner-boton a:hover span {
+    width: 100%;
+}
+
+.banner-boton a:hover {
+    color: #000;
+}
+
+.navbar {
+    width: 55%;
+    padding: 80px 650px;
+    position:fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #0084ff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+
+}
+
+@media screen and (max-width: 770px){
+    .banner-texto h1 {
+        font-size: 44px;
+    }
+    .banner-boton a{
+        display: block;
+        margin: 20px auto;
+    }
+
+    .navbar ul li a {
+        font-size: 14px;
+    }
+}
+
+span {
+    display: inline-block;
+    height: 5px;
+    width: 50px;
+    background: #1c87e8;
+    margin-bottom: 30px;
+  }
+  div.main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: #042747;
+    justify-content: center;
+  }
+  div.container {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+  }
+  
+  .imag {
+    width: 100%;
+  }
+  h1 {
+    font-weight: 600;
+    font-size: 36px;
+    margin: 0 0 15px;
+  }
+  p {
+    font-weight: 300;
+    line-height: 28px;
+    margin: 0 0 30px 0;
+  }
+  div.imag {
+
+    margin: 0%;
+    padding: 0%;  
+    height: 300px;
+    width: 100%;
+    background: url(images/foto_blog.jpg);
+    background-size:contain;
+    background-position: center;
+  }
+  div.text-container {
+    margin: 60px 45px 55px;
+  }
+  .construcion{
+      margin: auto;
+    background-image: url(../img/paginaconstrucción.png);
+      width: 1200px;
+      height: 650px;
+  }

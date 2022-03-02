@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Secular One', sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: #f5d9d9;
+}
+
+.opciones{
+    width:700px;
+   background-color: #528dfb;
+   margin: auto;
+   border-radius: 1rem;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   padding: 2rem;
+   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.644);
+   margin-bottom: 2rem;
+
+}
+.icon{
+   stroke: #ffffff;
+}
+.seleccion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #1736c0f3;
+    width: 200px;
+    height: 100px;
+    border-radius: 1rem;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.644);
+
+}
+ a{
+    outline: none;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 200;
+}
+.seleccion:hover,h3:hover{
+    background-color: #24252a;
+}
+
+.texto{
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+}
+.texto_admin{
+    margin: auto;
+    text-align: center;
+    padding: 2rem;
+    font-size:2rem;
+    color:#24252a;}
+.footer{
+    height: 200px;
+    background-color:#24252a ;
+}
+.agregar{
+    margin-bottom: 2rem;
+}
+.actualiza{
+    margin: auto;
+    max-width: 300px;
+    margin-bottom: 2rem;
+}

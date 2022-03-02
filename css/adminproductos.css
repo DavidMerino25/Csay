@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Secular One', sans-serif;
+}
+body{
+    margin: 0;
+    background-color: #f5d9d9;
+}
+ table{
+    margin: auto;
+     width: 800px;
+      border-collapse: separate; 
+      border-spacing: 10px 5px;
+ }
+
+ 
+ .boton, button , button a {
+    margin: auto;
+    text-decoration: none;
+    color: #ffffff;
+    background-color:#56adff ;
+    font-size: 1rem;
+    width: 100px;
+ }
+ .componer{
+     display: flex;
+     flex-direction: column;
+ }
+input{
+    width: 200px;
+   border-radius: 6px;
+}
